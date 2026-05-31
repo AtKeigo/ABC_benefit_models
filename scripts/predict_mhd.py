@@ -16,13 +16,13 @@ def parse_args():
         "--input",
         type=str,
         required=True,
-        help="Path to input CSV file containing patient features.",
+        help="Path to input CSV file containing patient features (dose and anatomical).",
     )
     parser.add_argument(
         "--model",
         type=str,
         default="models/gb_mhd_5feat.pkl",
-        help="Path to the trained model file (.pkl or .joblib).",
+        help="Path to the trained model file (.pkl).",
     )
     parser.add_argument(
         "--output",
