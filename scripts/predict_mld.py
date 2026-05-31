@@ -16,7 +16,7 @@ def parse_args():
         "--input",
         type=str,
         required=True,
-        help="Path to input CSV file containing patient features(dose and anatomical.)",
+        help="Path to input CSV file containing patient features(dose and anatomical).",
     )
     parser.add_argument(
         "--model",
