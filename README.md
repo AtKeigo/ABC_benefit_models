@@ -21,6 +21,8 @@ The repository includes trained model files, inference scripts, example input fi
 - `scripts/`
   - `predict_mhd.py`: inference script for the MHD model
   - `predict_mld.py`: inference script for the MLD model
+  - `train_final_mhd_model.py`: trains the final 5-feature GB model for the MHD task and saves it as `gb_mhd_5feat.pkl`
+  - `train_final_mld_model.py`: trains the final 6-feature GB model for the MLD task and saves it as `gb_mld_6feat.pkl`
 
 - `sample_data/`
   - `sample_input_mhd.csv`: example input file for the MHD model
